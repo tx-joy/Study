@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css",
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/videogular2/fonts/videogular.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/omega/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -72,7 +82,13 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css",
+              "./node_modules/videogular2/fonts/videogular.css",
+              "src/styles.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/omega/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [],
             "assets": [
